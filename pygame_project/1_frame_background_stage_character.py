@@ -36,6 +36,7 @@ character_height = character_size[1]
 character_x_pos = (screen_width / 2) - (character_width / 2)
 character_y_pos = screen_height - character_height - stage_height
 
+
 running = True
 while running:
     dt = clock.tick(30)
